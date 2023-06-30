@@ -1,0 +1,93 @@
+#bienvenue{
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto ;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 120px;
+} 
+
+#nav1 ul{
+    margin: 0;
+    padding: 0;
+}
+
+#nav1 li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    background-color:darkcyan;
+}
+
+#nav1 ul li a{
+    color: beige;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border:1px solid beige;
+    line-height: 50px;
+   /* text-shadow: 1px 1px 1px cyan;*/
+}
+
+#nav1 ul ul{
+    position: absolute;
+    visibility: hidden;
+    
+}
+
+#nav1 ul li:hover ul{
+    visibility: visible;
+}
+#nav1 li:hover{
+    background-color: #fff;
+    
+}
+
+#nav1 ul li ul a:hover{
+   
+    background-color: #000;
+    
+
+}
+
+#nav1 ul li>a:hover{
+   
+    
+    
+
+}
+
+#nav1{
+    background-color: red;
+    width: 714px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titre{
+    text-align: center;
+}
+
+#corps{
+    text-align: center;
+    display: block;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table {
+    border: 2px solid darkcyan;
+    border-collapse: collapse;
+}
+
+table td{
+    border: 2px solid darkcyan;
+    line-height: 30px;
+}
+
+table tr:hover{
+background-color: rgb(201, 179, 179);
+}
